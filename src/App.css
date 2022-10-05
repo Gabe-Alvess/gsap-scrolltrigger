@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Aclonica", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html ::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #ffd814;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first {
+  width: auto;
+  height: 100vh;
+  background-color: #ffd814;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.second {
+  width: auto;
+  height: 100vh;
+  background-color: #f90;
   display: flex;
   flex-direction: column;
+  justify-content: baseline;
+}
+
+.third {
+  width: auto;
+  height: 100vh;
+  background-color: #e0fbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 60px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollTrigger-title {
+  color: #023047;
+}
+
+.gsap-title {
+  color: #8ac640;
+}
+
+.bird-title {
+  color: #ff6584;
+}
+
+.first-paragraph {
+  text-align: center;
+  color: #023047;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.second-paragraph {
+  text-align: center;
+  font-size: 30px;
+  color: #3f3d56;
+}
+
+.third-paragraph {
+  text-align: center;
+  font-size: 30px;
+  color: #023047;
+}
+
+.logo-main {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#workout-logo {
+  width: 500px;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#gsap-logo {
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  padding-right: 80px;
+}
+
+#happy-logo {
+  width: 500px;
+  height: 300px;
 }
